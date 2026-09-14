@@ -2,13 +2,13 @@
 
 A data analytics portfolio project focused on analyzing sales performance, customer behavior, product performance, and customer segmentation using RFM analysis.
 
-##  Project Overview
+## Project Overview
 
 This project analyzes transactional data from an online retail company to understand sales performance and customer purchasing behavior.
 
 The analysis covers the complete data analytics process, starting from data understanding and cleaning, followed by SQL analysis, customer analysis using RFM, and visualization through an interactive Power BI dashboard.
 
-##  Business Questions
+## Business Questions
 
 This project aims to answer several business questions:
 
@@ -20,7 +20,7 @@ This project aims to answer several business questions:
 - Which customer segments have the highest monetary value?
 - Which customers may be at risk of becoming inactive?
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 - Python
 - Pandas
@@ -30,9 +30,9 @@ This project aims to answer several business questions:
 - RFM Analysis
 - Google Colab
 
-## 📊 Dataset
+## Dataset
 
-The dataset used in this project is the **Online Retail Dataset** from the UCI Machine Learning Repository.
+The dataset used in this project is the Online Retail Dataset from the UCI Machine Learning Repository.
 
 The dataset contains transactional information including:
 
@@ -45,7 +45,7 @@ The dataset contains transactional information including:
 - Customer ID
 - Country
 
-## 🧹 Data Cleaning
+## Data Cleaning
 
 The data cleaning process included:
 
@@ -58,9 +58,9 @@ The data cleaning process included:
 - Separating valid sales transactions from non-product transactions
 - Creating a Revenue column from Quantity × Unit Price
 
-After cleaning, the valid sales data contained **524,878 transaction line items**.
+After cleaning, the valid sales data contained 524,878 transaction line items.
 
-## 🔎 SQL Analysis
+## SQL Analysis
 
 SQL was used to analyze:
 
@@ -72,15 +72,15 @@ SQL was used to analyze:
 - Top 10 products by revenue
 - Top 10 products by quantity
 - Top 10 customers by revenue
-- Top countries by revenue
+- Top 10 countries by revenue
 
-## 👥 RFM Customer Analysis
+## RFM Customer Analysis
 
 RFM analysis was used to segment customers based on:
 
-- **Recency** — how recently a customer made a purchase
-- **Frequency** — how frequently a customer made purchases
-- **Monetary** — how much revenue a customer generated
+- Recency — how recently a customer made a purchase
+- Frequency — how frequently a customer made purchases
+- Monetary — how much revenue a customer generated
 
 The customers were divided into five segments:
 
@@ -90,15 +90,15 @@ The customers were divided into five segments:
 - At Risk
 - Hibernating
 
-## 💡 Key Insights
+## Key Insights
 
 Several important findings were identified:
 
 1. Revenue increased significantly toward the end of the year, with November generating the highest monthly revenue.
 2. Several products were major contributors to total revenue.
-3. Champions represented around **21.42% of customers** but contributed approximately **70.1% of RFM Monetary value**.
-4. **26% of customers were classified as At Risk**, indicating a significant customer retention opportunity.
-5. **25.01% of customers were classified as Potential / Promising**, creating opportunities for cross-selling, upselling, and loyalty strategies.
+3. Champions represented around 21.42% of customers but contributed approximately 70.1% of RFM Monetary value.
+4. 26% of customers were classified as At Risk, indicating a significant customer retention opportunity.
+5. 25.01% of customers were classified as Potential / Promising, creating opportunities for cross-selling, upselling, and loyalty strategies.
 
 ## Power BI Dashboard
 
@@ -124,7 +124,7 @@ Dashboard components include:
 - Customer Segment filter
 - Invoice Date filter
 
-## 💼 Business Recommendations
+## Business Recommendations
 
 Based on the analysis:
 
@@ -134,21 +134,20 @@ Based on the analysis:
 - Implement win-back campaigns for At Risk customers.
 - Use cross-selling and upselling strategies to develop Potential / Promising customers.
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 Sales-Customer-Analytics/
 │
 ├── data/
-│   ├── cleaned_data.csv
-│   ├── sales_data.csv
 │   └── rfm_customer.csv
 │
 ├── notebook/
 │   └── 01_data_understanding.ipynb
 │
 ├── SQL/
-│   ├── sales_customer.db
 │   └── sales_analysis.sql
 │
-└── README.md
+├── README.md
+├── Sales_Customer_Analytics.pbix
+└── dashboard_preview.png
