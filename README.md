@@ -100,7 +100,9 @@ Several important findings were identified:
 4. **26% of customers were classified as At Risk**, indicating a significant customer retention opportunity.
 5. **25.01% of customers were classified as Potential / Promising**, creating opportunities for cross-selling, upselling, and loyalty strategies.
 
-## 📈 Power BI Dashboard
+## Power BI Dashboard
+
+![Dashboard Preview](dashboard_preview.png)
 
 The final dashboard provides an interactive overview of sales performance and customer behavior.
 
